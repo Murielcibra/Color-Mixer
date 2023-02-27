@@ -10,7 +10,7 @@ function colors() {
   const blue = parseInt(blueRangeInput.value);
   document.body.style.backgroundColor =
     "rgb(" + red + "," + green + "," + blue + ")";
-  hexP.innerHTML = rgbToHex(red, green, blue);
+  hexP.innerText = rgbToHex(red, green, blue);
 }
 
 function rgbToHex(r, g, b) {
